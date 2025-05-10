@@ -1,0 +1,107 @@
+time: 2024/11/3
+今日任务：CppBaseDay05_5学完
+          计算机系统作业二做完并提交
+    扩展：强化学习实验一
+          计算机系统前三个实验
+
+/*
+   函数指针与指针函数
+   函数指针                 指针函数
+   int (*func) ()           int* func()
+   依然是一个指针，         是一个函数，
+   指向一个返回值是int类型，返回值是指针
+   形参列表为空的函数
+*/
+
+/*
+   数组指针与指针数组
+   数组指针                 指针数组
+   int (*arr)[10]           int *arr[]
+*/
+
+/*
+   malloc与free
+   allocate and free dynamic memory
+   动态内存，所以申请的是堆空间
+*/
+
+/*
+   内存泄漏、内存踩踏、野指针、内存越界、踩内存
+*/
+
+学习到CppBaseDay05_6
+计算机系统作业二完成并提交
+扩展未完成
+
+time: 2024/11/4
+/*
+   引用本质上是一个指针常量，(* const)
+   不能改变引用的指向，但可以改变内容
+   不建议返回堆空间的引用，除非有自动内存回收的机制
+*/
+
+学习到CppBaseDay06_1
+
+/*
+   问题回顾
+   命名空间的作用是什么？
+   解决命名冲突
+   如何访问命名空间中的实体？
+   命名空间+作用域限定符
+   三种命名空间的写法？
+   1、using namespace std;//using编译指令
+   2、作用域限定符
+   3、using std::cout;//using声明机制
+   匿名命名空间？
+   匿名命名空间的写法：::number;
+   命名空间是可以进行扩展的，也是可以进行嵌套的
+
+   const的特点？
+   const修饰的数据是常量，必须初始化且不能赋值
+   常量指针与指针常量
+   常量指针
+   int value = 10;
+   const int *p1 = &value;
+   int const *p1 = &value;
+   //指针指向的数据内容不能变，但是指针的指向可以改变
+   指针常量
+   int value = 10;
+   int * const p1 = &value;
+   //指针的指向不能改变，但是指针指向的数据内容可以改变
+   cosnt int * const p1 = &value;
+   //双const都不能改变
+   总结：const修饰谁，谁就不能改变
+
+   new和delete是干什么的？与c语言中的malloc/free有什么关系？
+   new/delete是c++中用于申请和释放堆空间用的
+   new/delete要成对使用，申请的堆空间用完后要记得释放，防止内存泄漏
+   int *pInt = new int(10);
+   delete pInt;
+   pInt = nullptr;
+   int *pArr = new int[20]();
+   pArr[0] = 10;
+   delete [] pArr;
+   pArr = nullptr;
+*/
+
+/*
+   vimplus快捷键
+   y + 目标行号 + G
+   //复制从当前行到目标行的所有内容
+   d + 目标行号 + G
+   //删除从当前行到目标行的所有内容
+*/
+
+/*
+   const_cast用于修改类型的const属性，常量对象被转换为非常量对象
+*/
+学习到CppBaseDay06_2
+
+/*
+   强化学习实验一
+   碰到的问题：
+   gym_tutorial.py无法运行？
+   检查报错发现是pyglet版本过高，降低版本pip install pyglet==1.5.27解决问题
+*/
+
+

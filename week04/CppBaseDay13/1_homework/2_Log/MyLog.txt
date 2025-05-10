@@ -1,0 +1,4 @@
+2025-03-22 17:42:32,199 [ERROR] MyCat testMylogger.cc: test4: 45: this is an error msg 
+2025-03-22 17:42:32,199 [WARN] MyCat testMylogger.cc: test4: 46: this is a warn msg 
+2025-03-22 17:42:32,199 [INFO] MyCat testMylogger.cc: test4: 47: this is a info msg 
+2025-03-22 17:42:32,199 [DEBUG] MyCat testMylogger.cc: test4: 48: this is a debug msg 

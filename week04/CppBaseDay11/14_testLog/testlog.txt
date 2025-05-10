@@ -1,0 +1,5 @@
+FATAL   : This is an emerg message
+FATAL   : This is an fatal message
+ALERT   : This is an alert message
+CRIT    : This is an crit message
+ERROR   : This is an error message

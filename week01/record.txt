@@ -1,0 +1,52 @@
+time: 2024/10/27
+
+开始学习c++
+周三组会开完之后找崔翔师兄聊了一下有关发论文的一些问题
+前面是energy harvesting + scheduling,后面是WPT里面的PDL优化
+如果想早点发论文的话，要尽早去检索相关的论文，主要问题是调度、建模、频率调节
+
+time: 2024/10/28
+昨天混了一天，没干什么正事
+
+学习到CppBaseDay05_2
+
+time: 2024/10/29
+上午学习到CppBaseDay05_3
+
+time: 2024/10/30
+
+/*
+   using 声明机制
+   一次只引出命名空间中的一个实体，要用哪个引哪个
+   using std::cout;
+   using std::endl;
+*/
+
+学习到CppBaseDay05_4
+
+time: 2024/10/31
+
+/*
+   定义const常量时必须对其进行初始化
+   const int number = 10;
+   常量不能赋值
+*/
+
+/*
+   常量指针与指针常量
+   常量指针:
+   const int *p1 = &value;
+   //不能改变指针所指向数据的内容，但是可以改变指针的指向
+
+   指针常量：
+   int * const p2 = &vlaue2;
+   //不能改变指针的指向，但是可以改变指针所指向数据的内容
+
+   双const:
+   const int * const p3 = &value3;
+   //既不能改变指针的指向，也不能改变指针所指向数据的内容
+
+   总结：const修饰谁，谁就不能改变
+*/
+
+学习到CppBaseDay05_5
