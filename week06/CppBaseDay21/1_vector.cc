@@ -23,6 +23,19 @@ void test()
         cout << *it << " ";
     }
     cout << endl;
+    vector<int>::iterator it2 = number.begin();
+    for(; it2 != number.end(); ++it2)
+    {
+        cout << *it2 << " ";
+    }
+    cout << endl;
+
+    for(auto &elem : number)
+    {
+        cout << elem << " ";
+    }
+    cout << endl;
+
 }
 
 int main()
