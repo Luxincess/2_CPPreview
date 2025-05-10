@@ -315,5 +315,5 @@ time: 2025/5/9
 后面就都是STL模板库的内容，过起来应该会比较快   还要抽时间学习一下git代码版本管理
 
 time：2025/5/10
-学习latex
-继续学习CppBaseDay21的内容
+学习latex\\
+继续学习CppBaseDay21的内容\\
